@@ -1,7 +1,7 @@
 ---
-title: "Pria che spunti in Ciel l'aurora from Il Matrimonio Segreto"
+title: "Pria che spunti in Ciel l'aurora (Il Matrimonio Segreto)"
 date: 2023-08-23
-description: "Pria che spunti in Ciel l'aurora from Il Matrimonio Segreto from the 2023 PSCO Season Preview Concert"
+summary: "Pria che spunti in Ciel l'aurora from Il Matrimonio Segreto from the 2023 PSCO Season Preview Concert"
 tags: ["psco", "performance", "opera"]
 ---
 {{< youtube id="yHBb89YtUsw?start=43" >}}

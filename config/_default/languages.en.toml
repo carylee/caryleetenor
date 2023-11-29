@@ -3,7 +3,7 @@ languageName = "English"
 languageDirection = "ltr"
 weight = 1
 
-title = "Congo"
+title = "Home"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 [params]
@@ -15,9 +15,9 @@ title = "Congo"
 
 [author]
   name = "Cary Lee"
-  image = "img/headshot.jpg"
+  image = "images/headshot.jpg"
   headline = "tenor"
-  bio = "A little bit about you"
+  bio = "Tenor"
   links = [
      { email = "mailto:hello@caryleetenor.com" },
   #   { link = "https://link-to-some-website.com/" },

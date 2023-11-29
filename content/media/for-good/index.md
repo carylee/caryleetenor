@@ -1,8 +1,8 @@
 ---
-title: "For Good from Wicked"
+title: "For Good (Wicked)"
 date: 2023-10-08
 description: "For Good from Wicked First UMC Seattle"
-summary: "Learn more about me and why I am starting this blog."
+summary: "A duet from the musical Wicked with my friend Evan Bennett at First Church Seattle."
 tags: ["musical theatre", "performance", "first church", "wicked"]
 ---
 
