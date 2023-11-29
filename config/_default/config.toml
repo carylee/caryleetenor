@@ -15,3 +15,5 @@ summaryLength = 0
 
 [params]
   images = ["/images/concert.jpg"]
+
+googleAnalytics = "G-TCDEKZNQNQ"
