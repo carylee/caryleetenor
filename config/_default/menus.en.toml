@@ -16,14 +16,24 @@
   weight = 10
 
 [[main]]
-  name = "Events"
+  name = "Upcoming Events"
   pageRef = "events"
   weight = 20
 
 [[main]]
-  name = "Tags"
-  pageRef = "tags"
+  name = "Resume"
+  pageRef = "resume"
+  weight = 25
+
+[[main]]
+  name = "Contact & Bookings"
+  pageRef = "contact"
   weight = 30
+
+#[[main]]
+#  name = "Tags"
+#  pageRef = "tags"
+#  weight = 30
 
 [[main]]
   identifier = "search"
