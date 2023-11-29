@@ -1,0 +1,8 @@
+[submodule "caryleetenor/themes/congo"]
+	path = caryleetenor/themes/congo
+	url = https://github.com/jpanther/congo.git
+	branch = stable
+[submodule "themes/cong"]
+	path = themes/cong
+	url = https://github.com/jpanther/congo.git
+	branch = stable
