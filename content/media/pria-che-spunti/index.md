@@ -2,6 +2,7 @@
 title: "Pria che spunti in Ciel l'aurora (Il Matrimonio Segreto)"
 date: 2023-08-23
 summary: "Pria che spunti in Ciel l'aurora from Il Matrimonio Segreto from the 2023 PSCO Season Preview Concert"
+description: "Cary performs an aria from Il Matrimonio Segreto by Domenico Cimarosa with Puget Sound Concert Opera in August 2023."
 tags: ["psco", "performance", "opera"]
 videos: ["https://youtu.be/yHBb89YtUsw"]
 ---
