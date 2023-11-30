@@ -4,6 +4,7 @@ date: 2023-10-08
 description: "For Good from Wicked First UMC Seattle"
 summary: "A duet from the musical Wicked with my friend Evan Bennett at First Church Seattle."
 tags: ["musical theatre", "performance", "first church", "wicked"]
+videos: ["https://youtu.be/cmspfkzuXrQ"]
 ---
 
 {{< youtube cmspfkzuXrQ >}}

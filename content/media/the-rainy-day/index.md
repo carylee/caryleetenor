@@ -4,6 +4,7 @@ date: 2023-03-15
 description: "The Rainy Day, an art song by Jeraldine Herbison, recorded for an audition."
 summary: "The Rainy Day, an art song by Jeraldine Herbison, recorded for an audition."
 tags: ["art song", "audition"]
+videos: ["https://youtu.be/qAFuhHKcja0"]
 ---
 
 {{< youtube qAFuhHKcja0 >}}
