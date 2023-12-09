@@ -49,6 +49,6 @@ Cary will join KCS as a professional chorister performing choral selections by B
 
 ## Puget Sound Concert Opera - Il Corsaro by Giuseppe Verdi
 
-Cary will sing the role of Age Selimo in PSCO's concert production of Il Corsaro.
+Cary will sing the role of Age Selimo in PSCO's concert production of [Il Corsaro](http://www.pugetsoundconcertopera.org/season.html).
 
 - **Date:** June 7, 2024 & June 9, 2024
