@@ -1,0 +1,8 @@
+BEGIN:VEVENT
+UID:{{ .context.Permalink }}
+DTSTAMP:{{ .context.Date.Format "20060102T150405Z" }}
+DTSTART:{{ .context.Date.Format "20060102" }}
+SUMMARY:{{ .Title | plainify | chomp}}
+DESCRIPTION:{{ .Content | plainify | chomp}}
+URL:{{ .Url }}
+END:VEVENT

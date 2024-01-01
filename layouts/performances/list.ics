@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Cary Lee, tenor//Performances//EN
+{{ range .Pages }}
+{{ if .Data.Pages }}
+{{ range .Data.Pages }}
+{{ partial "event.ics" (dict "context" . "Date" .Date "Title" .Parent.Title "Description" .Parent.Description "Content" .Parent.Content "Url" .Parent.Permalink) }}
+{{ end }}
+{{ else }}
+{{ partial "event.ics" (dict "context" . "Title" .Title "Description" .Description "Content" .Content "Url" .Permalink) }}
+{{ end }}
+{{ end }}
+END:VCALENDAR

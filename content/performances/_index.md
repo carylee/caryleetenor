@@ -1,0 +1,5 @@
+---
+outputs:
+- html
+- calendar
+---

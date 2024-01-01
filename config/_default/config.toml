@@ -12,6 +12,7 @@ summaryLength = 0
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+  section = ["HTML"]
 
 [params]
   images = ["/images/concert.jpg"]
