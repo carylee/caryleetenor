@@ -10,7 +10,7 @@ title = "Cary Lee | tenor"
   dateFormat = "2 January 2006"
   author = "Cary Lee"
 
-  # mainSections = ["section1", "section2"]
+  mainSections = ["media"]
   # description = "My awesome website"
 
 [author]
