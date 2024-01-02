@@ -1,0 +1,12 @@
+[build]
+  command = "hugo"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.120.4"
+
+[[redirects]]
+  from = "https://caryleetenor.netlify.app/*"
+  to = "https://caryleetenor.com/:splat"
+  status = 301
+  force = true
