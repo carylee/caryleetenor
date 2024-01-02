@@ -13,6 +13,9 @@ DTSTART;TZID=America/Los_Angeles:{{ $startDate }}
 {{- if .Params.End }}
 DTEND;TZID=America/Los_Angeles:{{ .Params.End | time.AsTime | time.Format "20060102T150405" }}
 {{- end }}
+{{- with .Params.Location }}
+LOCATION:{{ . }}
+{{- end }}
 LAST-MODIFIED:{{ .Lastmod.Format "20060102T150405Z" }}
 SUMMARY:{{ $title }}
 DESCRIPTION:{{ $content }}
