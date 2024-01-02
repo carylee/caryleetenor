@@ -16,7 +16,7 @@
   weight = 10
 
 [[main]]
-  name = "Upcoming Performances"
+  name = "Events"
   pageRef = "events"
   weight = 20
 
