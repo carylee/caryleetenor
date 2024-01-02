@@ -1,7 +1,7 @@
 ---
 title: "Kirkland Choral Society Handelian Holidays Concert"
 date: 2023-12-02
-time: "3:00 PM"
+start: 2023-12-02T15:00:00
 location: "Bastyr University Chapel"
 link: "https://kirklandchoralsociety.ticketspice.com/handelian-holidays"
 ---

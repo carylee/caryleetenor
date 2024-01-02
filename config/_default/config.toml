@@ -6,6 +6,7 @@ theme = ["hugo-cloak-email", "congo"]
 baseURL = "https://caryleetenor.com/"
 defaultContentLanguage = "en"
 
+enableGitInfo = true
 enableRobotsTXT = true
 paginate = 10
 summaryLength = 0

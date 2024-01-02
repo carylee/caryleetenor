@@ -1,10 +1,10 @@
 ---
 title: "Ladies Musical Club Composers’ Spotlight Concert"
 date: 2024-02-09
-time: "7:30 PM"
+start: 2024-02-09T19:30:00
+end: 2024-02-09T21:00:00
 location: "Music Center of the Northwest"
 link: "https://lmcseattle.org/event/composers-concert/?instance_id=797"
-draft: false
 ---
 
 This Day for Soprano, Tenor, Piano, and Strings by Katherine Roberts.

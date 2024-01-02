@@ -1,6 +1,6 @@
 ---
 title: "NW Edward Grieg Society - Alf Hurum Centennial Concert"
-draft: false
+date: 2024-04-28
 link: https://nwegriegsociety.org/alf-hurum/
 ---
 

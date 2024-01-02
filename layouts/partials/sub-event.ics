@@ -1,12 +1,12 @@
 {{ $start := .Params.Start | time.AsTime | time.Format "20060102T150405" }}
 {{ $startDate := .Params.Start | time.AsTime | time.Format "20060102" }}
-{{ $title := .Title | plainify | chomp }}
-{{ $content := .Content | plainify | chomp }}
+{{ $title := .Parent.Title | plainify | chomp }}
+{{ $content := .Parent.Content | plainify | chomp }}
 BEGIN:VEVENT
 UID:{{ .Permalink }}
 DTSTAMP:{{ now.Format "20060102T150405Z" }}
 {{- if in $start "T" }}
-DTSTART;TZID=America/Los_Angeles:{{ $start }}
+DTSTART;TZID=America/Los_Angeles:{{ .Params.Start | time.AsTime | time.Format "20060102T150405" }}
 {{- else }}
 DTSTART;TZID=America/Los_Angeles:{{ $startDate }}
 {{- end }}
@@ -16,5 +16,5 @@ DTEND;TZID=America/Los_Angeles:{{ .Params.End | time.AsTime | time.Format "20060
 LAST-MODIFIED:{{ .Lastmod.Format "20060102T150405Z" }}
 SUMMARY:{{ $title }}
 DESCRIPTION:{{ $content }}
-URL:{{ .Permalink }}
+URL:{{ .Parent.Permalink }}
 END:VEVENT

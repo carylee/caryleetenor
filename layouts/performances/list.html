@@ -30,7 +30,8 @@
         Upcoming
       </h2>
       {{ range .Pages.ByDate }}
-        {{ if ge .Date time.Now }}
+        {{ $start := (.Params.start | default .Date) | time.AsTime }}
+        {{ if ge $start time.Now }}
           {{ partial "event-link.html" . }}
         {{ end }}
       {{ end }}
@@ -38,7 +39,8 @@
         Past
       </h2>
       {{ range .Pages.ByDate.Reverse }}
-        {{ if le .Date time.Now }}
+        {{ $start := (.Params.start | default .Date) | time.AsTime }}
+        {{ if le $start time.Now }}
           {{ partial "event-link.html" . }}
         {{ end }}
       {{ end }}

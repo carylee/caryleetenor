@@ -3,6 +3,15 @@
     {{ .Params.Location }}
   </div>
   <div class="text-sm text-neutral-500 dark:text-neutral-400">
-    {{ partial "event-date.html" .Date }} {{ if .Params.Time }} @ {{ .Params.Time }} {{ end }}
+{{ if .Params.Start }}
+  {{ $start := .Params.Start | time.AsTime }}
+  {{ if in .Params.Start "T" }}
+    {{ $start.Format "2 January 2006 @ 3:04 PM" }}
+  {{ else }}
+    {{ $start.Format "2 January 2006" }}
+  {{ end }}
+{{ else }}
+  {{ .Date.Format "2 January 2006" }}
+{{ end }}
   </div>
 </div>

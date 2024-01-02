@@ -1,13 +1,15 @@
 BEGIN:VCALENDAR
 VERSION:2.0
+X-WR-CALNAME;CHARSET=UTF-8:Cary in Concert
+X-WR-TIMEZONE:America/Los_Angeles
 PRODID:-//Cary Lee, tenor//Performances//EN
-{{ range .Pages }}
-{{ if .Data.Pages }}
-{{ range .Data.Pages }}
-{{ partial "event.ics" (dict "context" . "Date" .Date "Title" .Parent.Title "Description" .Parent.Description "Content" .Parent.Content "Url" .Parent.Permalink) }}
-{{ end }}
-{{ else }}
-{{ partial "event.ics" (dict "context" . "Title" .Title "Description" .Description "Content" .Content "Url" .Permalink) }}
-{{ end }}
-{{ end }}
+{{- range .Pages -}}
+{{- if .Data.Pages -}}
+{{- range .Data.Pages -}}
+{{- partial "sub-event.ics" . }}
+{{- end -}}
+{{- else }}
+{{- partial "event.ics" . }}
+{{- end }}
+{{- end }}
 END:VCALENDAR

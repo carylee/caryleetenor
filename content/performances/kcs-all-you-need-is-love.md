@@ -1,7 +1,7 @@
 ---
 title: "Kirkland Choral Society - All You Need is Love"
 date: 2024-02-25
-time: "3:00 PM"
+start: 2024-02-25T15:00:00
 location: "Bastyr University Chapel"
 link: "https://kirklandchoralsociety.ticketspice.com/all-you-need-is-love"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Kirkland Choral Society - Three Bs and One E"
 date: 2024-04-27
-time: "3:00 PM"
+start: 2024-04-27T15:00:00
 location: "Benaroya Hall, Seattle"
 link: "https://kirklandchoralsociety.ticketspice.com/three-bs-and-one-e"
 draft: false
