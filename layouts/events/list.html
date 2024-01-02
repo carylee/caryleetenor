@@ -4,7 +4,15 @@
     {{ if .Params.showBreadcrumbs | default (.Site.Params.list.showBreadcrumbs | default false) }}
       {{ partial "breadcrumbs.html" . }}
     {{ end }}
+    <div class="flex flex-wrap justify-between items-center">
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+
+    <a href="webcal://caryleetenor.com/events/index.ics" class="mt-0">
+        <button type="button" class="py-2.5 px-5 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-neutral-700 dark:hover:text-neutral-200 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:border-gray-200 dark:hover:text-white">
+            {{ partial "icon.html" "calendar" }} Subscribe
+        </button>
+    </a>
+    </div>
   </header>
   <section
     class="{{ if $toc -}}
