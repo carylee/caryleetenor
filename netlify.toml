@@ -10,3 +10,9 @@
   to = "https://caryleetenor.com/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/events/psco-il-corsaro/*"
+  to = "http://www.pugetsoundconcertopera.org/season.html"
+  status = 302
+  force = false
