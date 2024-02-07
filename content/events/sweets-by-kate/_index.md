@@ -1,7 +1,6 @@
 ---
 title: "Sweets by Kate - Lowbrow Opera Collective"
 date: 2024-06-07
-link: https://lowbrowoc.org/2023-24-season
 location: Theater off Jackson, Seattle, WA
 ---
 
