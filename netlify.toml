@@ -16,8 +16,3 @@
   to = "http://www.pugetsoundconcertopera.org/season.html"
   status = 302
   force = false
-
-[[redirects]]
-  from = "/events/footprint-cabaret-jan-2024/*"
-  status = 410
-  force = false
