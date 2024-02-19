@@ -2,7 +2,10 @@
 title: "Resume"
 date: 2024-02-19
 draft: false
+description: Cary Lee's musical resume.
 ---
+
+<a href="/resume.pdf">Download PDF</a>
 
 ## Emerging Artist Programs
 
