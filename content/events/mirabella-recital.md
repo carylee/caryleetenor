@@ -17,6 +17,8 @@ link: "https://www.retirement.org/mirabellaseattle/"
 ### Dichterliebe Op. 48 - Robert Schumann (1810-1856)
 _Text by Heinrich Heine (1797-1856)_
 
+Translations available at [Oxford Lieder](https://oxfordsong.org/song/dichterliebe)
+
 1. **Im wunderschönen Monat Mai** — In the Wondrous month of May
 2. **Aus meinen Tränen sprießen** — From my tears there will spring
 3. **Die Rose, die Lilie, die Taube, die Sonne** — Rose, lily, dove, sun
