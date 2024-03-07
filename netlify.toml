@@ -16,3 +16,9 @@
   to = "http://www.pugetsoundconcertopera.org/season.html"
   status = 302
   force = false
+
+[[redirects]]
+  from = "/translations"
+  to = "https://oxfordsong.org/song/dichterliebe"
+  status = 302
+  force = true
