@@ -21,4 +21,9 @@
   from = "/translations"
   to = "https://oxfordsong.org/song/dichterliebe"
   status = 302
-  force = true
+  force = false
+
+[[redirects]]
+  from = "/mirabella"
+  to = "/events/mirabella-recital"
+  status = 301
