@@ -7,4 +7,4 @@ link: "https://kirklandchoralsociety.ticketspice.com/three-bs-and-one-e"
 draft: false
 ---
 
-Cary will join KCS as a professional chorister performing choral selections by Bach, Beethoven, and Brahms.
+Join Cary for his Benaroya Hall debut! Cary will be performing in the soli sextet for Beethoven's *Choral Fantasy* and in a small ensemble for Bach's Cantata "Nach dir, Herr, verlanget mich" (BWV 150). The program also includes Brahms' Nänie and the Seattle premiere of Reene Esmail's voting rights cantata "Say Your Name."
