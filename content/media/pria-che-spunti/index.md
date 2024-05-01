@@ -9,3 +9,6 @@ videos: ["https://youtu.be/yD1AI6LNiFE"]
 {{< youtube id="yD1AI6LNiFE?start=43" >}}
 
 From the [Puget Sound Concert Opera](https://www.pugetsoundconcertopera.org/) [2023 Season Preview Concert](http://www.pugetsoundconcertopera.org/studiopreview2023.html), recorded at the Good Shepherd Center on August 23, 2023.
+
+The full concert is also available below, with Cary performing in multiple ensemble pieces.
+{{< youtube id="1KwLhHNsRfM" >}}
