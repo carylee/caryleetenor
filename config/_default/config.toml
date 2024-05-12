@@ -9,7 +9,7 @@ defaultContentLanguage = "en"
 enableGitInfo = true
 enableRobotsTXT = true
 paginate = 10
-summaryLength = 0
+summaryLength = 70
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

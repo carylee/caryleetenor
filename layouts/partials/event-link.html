@@ -77,7 +77,7 @@
         {{ partial "event-instance-info.html" . }}
     {{ end }}
       <div class="prose py-1 dark:prose-invert">
-        {{ .Content | emojify }}
+        {{ .Summary | markdownify }}
       </div>
       {{ if .Params.Link }}
       <div class="text-sm text-primary-500 dark:text-primary-400">

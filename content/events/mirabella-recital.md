@@ -5,6 +5,7 @@ start: 2024-03-07T15:30:00
 end: 2024-03-07T16:30:00
 location: "Mirabella Seattle"
 link: "https://www.retirement.org/mirabellaseattle/"
+summary: "Cary and pianist Andrew Brandon-Rumman will present a recital including Schumann's *Dichterliebe* and musical theatre selections at the Mirabella retirement community in Seattle, as a part of their concert series."
 ---
 
 # Cary Lee in Concert

@@ -4,6 +4,7 @@ date: 2024-06-16
 start: 2024-06-16T12:30:00
 end: 2024-06-16T13:30:00
 location: "First United Methodist Church of Seattle"
+summary: "Cary and pianist Andrew Brandon-Rumman will perform Schumann's *Dichterliebe* and musical theatre selections as a part of First Church's summer recital series."
 ---
 
 # Cary Lee & Andrew Brandon-Rumman in Recital
@@ -18,22 +19,22 @@ _Text by Heinrich Heine (1797-1856)_
 
 Translations available at [Oxford Lieder](https://oxfordsong.org/song/dichterliebe)
 
-1. **Im wunderschönen Monat Mai** — In the Wondrous month of May
-2. **Aus meinen Tränen sprießen** — From my tears there will spring
-3. **Die Rose, die Lilie, die Taube, die Sonne** — Rose, lily, dove, sun
-4. **Wenn ich in deine Augen seh'** — When I look into your eyes
-5. **Ich will meine Seele tauchen** — Let me bathe my soul
-6. **Im Rhein, im heiligen Strome** — In the Rhine, in the holy river
-7. **Ich grolle nicht** — I bear no grudge though my heart is breaking
-8. **Und wüßten's die Blumen, die kleinen** — If the little flowers knew
-9. **Das ist ein Flöten und Geigen** — What a fluting, what a scraping
-10. **Hör' ich das Liedchen klingen** — When I hear the little song
-11. **Ein Jüngling liebt ein Mädchen** — A boy loves a girl
-12. **Am leuchtenden Sommermorgen** — One bright summer morning
-13. **Ich hab' im Traum geweinet** — I wept in my dreams
-14. **Allnächtlich im Traume** — Nightly in my dreams
-15. **Aus alten Märchen winkt es** — A white hand beckons
-16. **Die alten bösen Lieder** — The bad old songs
+1. **Im wunderschönen Monat Mai**
+2. **Aus meinen Tränen sprießen**
+3. **Die Rose, die Lilie, die Taube, die Sonne**
+4. **Wenn ich in deine Augen seh'**
+5. **Ich will meine Seele tauchen**
+6. **Im Rhein, im heiligen Strome**
+7. **Ich grolle nicht**
+8. **Und wüßten's die Blumen, die kleinen**
+9. **Das ist ein Flöten und Geigen**
+10. **Hör' ich das Liedchen klingen**
+11. **Ein Jüngling liebt ein Mädchen**
+12. **Am leuchtenden Sommermorgen**
+13. **Ich hab' im Traum geweinet**
+14. **Allnächtlich im Traume**
+15. **Aus alten Märchen winkt es**
+16. **Die alten bösen Lieder**
 
 *Pause*
 
