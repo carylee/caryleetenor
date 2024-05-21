@@ -7,10 +7,8 @@ location: "First United Methodist Church of Seattle"
 summary: "Cary and pianist Andrew Brandon-Rumman will perform Schumann's *Dichterliebe* and musical theatre selections as a part of First Church's summer recital series."
 ---
 
-# Cary Lee & Andrew Brandon-Rumman in Recital
 ### Tenor: Cary Lee
 ### Piano: Andrew Brandon-Rumman
-### Date: June 16, 2024
 
 ## Program
 
