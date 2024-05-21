@@ -27,3 +27,8 @@
   from = "/mirabella"
   to = "/events/mirabella-recital"
   status = 301
+
+[[redirects]]
+  from = "/sbk"
+  to = "/events/sweets-by-kate"
+  status = 301
