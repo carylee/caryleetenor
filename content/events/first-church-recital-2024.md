@@ -1,8 +1,8 @@
 ---
 title: "Recital at First Church"
 date: 2024-06-16
-start: 2024-06-16T12:30:00
-end: 2024-06-16T13:30:00
+start: 2024-06-16T12:00:00
+end: 2024-06-16T13:00:00
 location: "First United Methodist Church of Seattle"
 summary: "Cary and pianist Andrew Brandon-Rumman will perform Schumann's *Dichterliebe* and musical theatre selections as a part of First Church's summer recital series."
 ---
