@@ -41,7 +41,4 @@ Translations available at [Oxford Lieder](https://oxfordsong.org/song/dichterlie
 - **A Bit of Earth** - Lucy Simon (1943-2022) & Marsha Norman (b. 1947)
 - **If I Loved You** - Richard Rodgers (1902-1979) & Oscar Hammerstein II (1895–1960)
 - **The Impossible Dream** - Mitch Leigh (1928-2014) & Joe Darion (1917-2001)
-- **On the Street Where You Live** - Frederick Loewe (1901-1988) & Alan Jay Lerner (1918-1986)
 - **No One Is Alone / Children Will Listen** - Stephen Sondheim (1930-2021)
-- **Being Alive** - Stephen Sondheim (1930-2021)
-
