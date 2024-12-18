@@ -11,8 +11,8 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Media"
-  pageRef = "media"
+  name = "About"
+  pageRef = "about"
   weight = 10
 
 [[main]]
@@ -20,15 +20,15 @@
   pageRef = "events"
   weight = 20
 
-[[main]]
-  name = "Resume"
-  pageRef = "resume"
-  weight = 25
+#[[main]]
+#  name = "Media"
+#  pageRef = "media"
+#  weight = 30
 
 [[main]]
   name = "Contact"
   pageRef = "contact"
-  weight = 30
+  weight = 40
 
 #[[main]]
 #  name = "Tags"

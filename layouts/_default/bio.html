@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <div class="container mx-auto px-6 py-8 max-w-5xl">
+    <!-- Bio Title -->
+    <h1 class="text-4xl font-bold text-primary-700 mb-6">Biography</h1>
+
+    <!-- Bio Content -->
+    <div class="text-lg leading-8 text-neutral-700 space-y-6">
+      {{ .Content | emojify }}
+    </div>
+  </div>
+{{ end }}

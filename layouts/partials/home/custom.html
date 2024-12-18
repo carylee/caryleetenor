@@ -1,0 +1,35 @@
+<div class="flex flex-col md:flex-row items-start py-8 rounded-lg">
+  <!-- Image Section -->
+  <div class="w-full md:w-1/2">
+    {{ $image := resources.Get "images/headshot1.jpg" }}
+    <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" 
+         alt="Headshot" class="w-full h-auto rounded">
+  </div>
+
+  <!-- Bio Section -->
+  <div class="w-full md:w-1/2 mt-6 md:mt-0 md:ml-6 px-6 py-4">
+    <!-- Name and Tagline -->
+    <h1 class="text-4xl font-bold text-primary-700 dark:text-pink-400 mb-2">Cary Lee, tenor</h1>
+    <p class="text-lg font-medium text-neutral-700 dark:text-neutral-400 mb-4">
+      BMus, he/him/his
+    </p>
+
+    <!-- Bio Text -->
+    <p class="text-lg leading-relaxed text-neutral-600 dark:text-neutral-300 mb-4">
+      Cary Lee is a Seattle-based lyric tenor celebrated for his expressive performances and exceptional musicianship. Equally at home in opera, concert, and recital settings, he brings a commitment to storytelling and championing underrepresented composers.
+    </p>
+    <p class="text-lg leading-relaxed text-neutral-600 dark:text-neutral-300 mb-4">
+      Recent highlights include performances with Lowbrow Opera Collective (Carl, <em>Sweets by Kate</em>), Vashon Opera (chorus, <em>Otello</em>), and Puget Sound Concert Opera (Studio Artist, 2022-2024). As a concert soloist, Cary has appeared in Bach’s <em>Nach dir, Herr</em> and Beethoven’s <em>Choral Fantasy</em> with Kirkland Choral Society at Benaroya Hall, and he performs in recitals featuring works like Schumann’s <em>Dichterliebe</em> and contemporary works.
+    </p>
+    <p class="text-lg leading-relaxed text-neutral-600 dark:text-neutral-300 mb-6">
+      Known for his sight-singing ability and versatility, Cary regularly collaborates with professional ensembles and serves as a soloist and section leader at First United Methodist Church of Seattle. Originally from Orlando, he holds a degree in Vocal Performance from Northwestern University.
+    </p>
+
+    <!-- Instagram CTA Button -->
+    <a href="https://instagram.com/caryleetenor" target="_blank" rel="noopener noreferrer"
+       class="inline-flex items-center px-4 py-2 bg-pink-600 text-white font-medium rounded hover:bg-pink-700 transition">
+      {{ partial "icon.html" "instagram" }}
+      Follow on Instagram
+    </a>
+  </div>
+</div>
