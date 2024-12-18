@@ -2,7 +2,8 @@
   <!-- Image Section -->
   <div class="w-full md:w-1/2">
     {{ $image := resources.Get "images/headshot1.jpg" }}
-    <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" 
+    {{ $image := $image.Fit "768x1024" }}
+    <img src="{{ $image.RelPermalink }}"
          alt="Headshot" class="w-full h-auto rounded">
   </div>
 
