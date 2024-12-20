@@ -1,7 +1,56 @@
 ---
 title: Events
-date: 2024-12-17
-layout: bio
+url: "/events/"
+layout: engagements
+seasons:
+  - title: "2024-2025 Season"
+    events:
+      - title: "Beethoven’s Choral Fantasy"
+        role: "Tenor Soloist"
+        location: "RHS Theatre & Live Streamed (Seattle, WA)"
+        date: "December 17, 2024 @ 7:00 PM"
+      - title: "Sing Love, Shout Joy!"
+        role: "Professional Chorister"
+        location: "Bellevue Presbyterian Church (Bellevue, WA)"
+        date: "December 8, 2024 @ 3:00 PM"
+      - title: "Verdi’s Otello"
+        role: "Chorus"
+        location: "Vashon Opera (Vashon Island, WA)"
+        date: "September 20 & 22, 2024"
+  - title: "2023-2024 Season"
+    events:
+      - title: "Recital at First Church"
+        location: "First United Methodist Church (Seattle, WA)"
+        date: "June 16, 2024"
+      - title: "Griffin Candey’s Sweets by Kate"
+        role: "Carl Cover, Chorus"
+        location: "Theater off Jackson (Seattle, WA)"
+        date: "June 7–15, 2024"
+      - title: "Alf Hurum Centennial Concert"
+        role: "Men's Octet"
+        location: "Tacoma, Seattle, & Classical KING Radio"
+        date: "April 28 – May 5, 2024"
+      - title: "Kirkland Choral Society – Three Bs and One E"
+        role: "Soloist"
+        location: "Benaroya Hall (Seattle, WA)"
+        date: "April 27, 2024"
+      - title: "Mirabella Recital"
+        location: "Mirabella Seattle"
+        date: "March 7, 2024"
+      - title: "Kirkland Choral Society – All You Need is Love"
+        role: "Professional Chorister"
+        location: "Bastyr University Chapel (Kenmore, WA)"
+        date: "February 25, 2024"
+      - title: "Black History Month Cabaret"
+        role: "Soloist"
+        location: "Footprint Wine Tap (Seattle, WA)"
+        date: "February 23, 2024"
+      - title: "Ladies Musical Club Spotlight Concert"
+        role: "Soloist"
+        location: "Music Center of the Northwest (Seattle, WA)"
+        date: "February 9, 2024"
+      - title: "Kirkland Choral Society – Handelian Holidays"
+        role: "Professional Chorister"
+        location: "Bastyr University Chapel (Kenmore, WA)"
+        date: "December 2, 2023"
 ---
-
-Test

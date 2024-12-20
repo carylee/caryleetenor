@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="container mx-auto px-6 py-8 max-w-5xl">
+  <!-- Page Title -->
+  <h1 class="text-4xl font-bold text-center text-primary-700 mb-10 tracking-wide">{{ .Title }}</h1>
+
+  <!-- Loop Through Seasons -->
+  {{ range .Params.seasons }}
+  <h2 class="text-2xl font-semibold text-neutral-800 mb-6 border-b border-neutral-300 pb-2">{{ .title }}</h2>
+  <div class="space-y-6 mb-12">
+    <!-- Loop Through Events -->
+    {{ range .events }}
+    <div>
+      <p class="text-lg font-semibold text-neutral-800">
+        {{ .title }}
+        {{ with .role }}
+        <span class="text-sm font-normal text-neutral-600">({{ . }})</span>
+        {{ end }}
+      </p>
+      <p class="text-neutral-600">{{ .location }}</p>
+      <p class="text-neutral-700 font-medium">{{ .date }}</p>
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}

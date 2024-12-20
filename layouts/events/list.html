@@ -1,116 +1,43 @@
 {{ define "main" }}
-<div class="container mx-auto px-6 py-8 max-w-5xl">
-  <!-- Page Title -->
-  <h1 class="text-4xl font-bold text-center text-primary-700 mb-10 tracking-wide">Events</h1>
-
-  <!-- 2024-2025 Season -->
-  <h2 class="text-2xl font-semibold text-neutral-800 mb-6 border-b border-neutral-300 pb-2">2024-2025 Season</h2>
-  <div class="space-y-6 mb-12">
-    <div>
-      <p class="text-lg font-semibold text-neutral-800">
-        Beethoven’s <em>Choral Fantasy</em>
-        <span class="text-sm font-normal text-neutral-600">(Tenor Soloist)</span>
+  {{ $toc := and (.Params.showTableOfContents | default (.Site.Params.list.showTableOfContents | default false)) (in .TableOfContents "<ul") }}
+  <header>
+    {{ if .Params.showBreadcrumbs | default (.Site.Params.list.showBreadcrumbs | default false) }}
+      {{ partial "breadcrumbs.html" . }}
+    {{ end }}
+    <div class="flex flex-wrap justify-between items-center">
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+    </div>
+  </header>
+  <section
+    class="{{ if $toc -}}
+      mt-12
+    {{- else -}}
+      mt-0
+    {{- end }} prose flex max-w-full flex-col dark:prose-invert lg:flex-row"
+  >
+    {{ if $toc }}
+      <div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
+        <div class="toc ps-5 lg:sticky lg:top-10">
+          {{ partial "toc.html" . }}
+        </div>
+      </div>
+    {{ end }}
+    <div class="min-w-0 min-h-0 max-w-prose grow">
+      {{ .Content | emojify }}
+    </div>
+  </section>
+  {{ if .Data.Pages }}
+    <section>
+      {{ range .Pages.ByDate }}
+        {{ partial "event-link.html" . }}
+      {{ end }}
+    </section>
+    {{ partial "pagination.html" . }}
+  {{ else }}
+    <section class="mt-10 prose dark:prose-invert">
+      <p class="py-8 border-t">
+        <em>{{ i18n "list.no_articles" | emojify }}</em>
       </p>
-      <p class="text-neutral-600">RHS Theatre & Live Streamed (Seattle, WA)</p>
-      <p class="text-neutral-700 font-medium">December 17, 2024 @ 7:00 PM</p>
-    </div>
-
-    <div>
-      <p class="text-lg font-semibold text-neutral-800">
-        Sing Love, Shout Joy!
-        <span class="text-sm font-normal text-neutral-600">(Professional Chorister)</span>
-      </p>
-      <p class="text-neutral-600">Bellevue Presbyterian Church (Bellevue, WA)</p>
-      <p class="text-neutral-700 font-medium">December 8, 2024 @ 3:00 PM</p>
-    </div>
-
-    <div>
-      <p class="text-lg font-semibold text-neutral-800">
-        Verdi’s <em>Otello</em>
-        <span class="text-sm font-normal text-neutral-600">(Chorus)</span>
-      </p>
-      <p class="text-neutral-600">Vashon Opera (Vashon Island, WA)</p>
-      <p class="text-neutral-700 font-medium">September 20 & 22, 2024</p>
-    </div>
-  </div>
-
-  <!-- 2023-2024 Season -->
-  <h2 class="text-2xl font-semibold text-neutral-800 mb-6 border-b border-neutral-300 pb-2">2023-2024 Season</h2>
-  <div class="space-y-6">
-    <div>
-      <p class="text-lg font-semibold text-neutral-800">Recital at First Church</p>
-      <p class="text-neutral-600">First United Methodist Church (Seattle, WA)</p>
-      <p class="text-neutral-700 font-medium">June 16, 2024</p>
-    </div>
-
-    <div>
-      <p class="text-lg font-semibold text-neutral-800">
-        Griffin Candey’s <em>Sweets by Kate</em>
-        <span class="text-sm font-normal text-neutral-600">(Carl Cover, Chorus)</span>
-      </p>
-      <p class="text-neutral-600">Theater off Jackson (Seattle, WA)</p>
-      <p class="text-neutral-700 font-medium">June 7–15, 2024</p>
-    </div>
-
-    <div>
-      <p class="text-lg font-semibold text-neutral-800">
-        Alf Hurum Centennial Concert
-        <span class="text-sm font-normal text-neutral-600">(Men's Octet)</span>
-      </p>
-      <p class="text-neutral-600">Tacoma, Seattle, & Classical KING Radio</p>
-      <p class="text-neutral-700 font-medium">April 28 – May 5, 2024</p>
-    </div>
-
-    <div>
-      <p class="text-lg font-semibold text-neutral-800">
-        Kirkland Choral Society – Three Bs and One E
-        <span class="text-sm font-normal text-neutral-600">(Soloist)</span>
-      </p>
-      <p class="text-neutral-600">Benaroya Hall (Seattle, WA)</p>
-      <p class="text-neutral-700 font-medium">April 27, 2024</p>
-    </div>
-
-    <div>
-      <p class="text-lg font-semibold text-neutral-800">Mirabella Recital</p>
-      <p class="text-neutral-600">Mirabella Seattle</p>
-      <p class="text-neutral-700 font-medium">March 7, 2024</p>
-    </div>
-
-    <div>
-      <p class="text-lg font-semibold text-neutral-800">
-        Kirkland Choral Society – All You Need is Love
-        <span class="text-sm font-normal text-neutral-600">(Professional Chorister)</span>
-      </p>
-      <p class="text-neutral-600">Bastyr University Chapel (Kenmore, WA)</p>
-      <p class="text-neutral-700 font-medium">February 25, 2024</p>
-    </div>
-
-    <div>
-      <p class="text-lg font-semibold text-neutral-800">
-        Black History Month Cabaret
-        <span class="text-sm font-normal text-neutral-600">(Soloist)</span>
-      </p>
-      <p class="text-neutral-600">Footprint Wine Tap (Seattle, WA)</p>
-      <p class="text-neutral-700 font-medium">February 23, 2024</p>
-    </div>
-
-    <div>
-      <p class="text-lg font-semibold text-neutral-800">
-        Ladies Musical Club Spotlight Concert
-        <span class="text-sm font-normal text-neutral-600">(Soloist)</span>
-      </p>
-      <p class="text-neutral-600">Music Center of the Northwest (Seattle, WA)</p>
-      <p class="text-neutral-700 font-medium">February 9, 2024</p>
-    </div>
-
-    <div>
-      <p class="text-lg font-semibold text-neutral-800">
-        Kirkland Choral Society – Handelian Holidays
-        <span class="text-sm font-normal text-neutral-600">(Professional Chorister)</span>
-      </p>
-      <p class="text-neutral-600">Bastyr University Chapel (Kenmore, WA)</p>
-      <p class="text-neutral-700 font-medium">December 2, 2023</p>
-    </div>
-  </div>
-</div>
+    </section>
+  {{ end }}
 {{ end }}
