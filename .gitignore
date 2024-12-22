@@ -1,8 +1,10 @@
-# Generated files by hugo
+
 /public/
 /resources/_gen/
 /assets/jsconfig.json
 hugo_stats.json
+
+*.DS_Store
 
 # Executable may be added to repository
 hugo.exe
