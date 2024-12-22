@@ -8,12 +8,10 @@ title = "Cary Lee | tenor"
 
 [params]
   dateFormat = "2 January 2006"
-  author = "Cary Lee"
-
   mainSections = ["media"]
   # description = "My awesome website"
 
-[author]
+[params.author]
   name = "Cary Lee"
   image = "images/headshot.jpg"
   headline = "tenor"

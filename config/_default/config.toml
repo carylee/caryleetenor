@@ -8,8 +8,10 @@ defaultContentLanguage = "en"
 
 enableGitInfo = true
 enableRobotsTXT = true
-paginate = 10
 summaryLength = 70
+
+[pagination]
+  pagerSize = 10
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
